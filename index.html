@@ -3,6 +3,7 @@
 <head>
     <title>Core Detailing Solutions</title>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <style>
         body {
             background-color: #231f1e;
@@ -11,22 +12,33 @@
         #navi {
             background-color: #231f1e;
         }
+
+        /* .button-styles {
+            background-color:#ef1923;
+            margin-right: 5px;
+        } */
+
+
         nav .navbar-nav li a{
             color: #35cef0;
             text-decoration: none;
         }
-        nav .navbar-nav li a:visited{
+
+        nav .navbar-nav li a:visited {
             color: #35cef0;
             text-decoration: none;
         }
-        nav .navbar-nav li a:hover{
+
+        nav .navbar-nav li a:hover {
             color: #ef1923;
         }
-        .core{
+
+        .core {
             max-width: auto;
             max-height: 30px;
             margin-left: 5px;
         }
+
         .core-logo {
             display: block;
             margin-left: auto;
@@ -38,29 +50,94 @@
 </head>
 
 <body>
-    <nav id="navi" class="navbar navbar-expand-sm">
-        <img class="core" src="/assets/css/images/CORE.PNG" alt="CORE img">
-        <ul class="color navbar-nav ms-auto">
-            <li class="nav-item me-auto">
-                
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/services.html">
-                    Services
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Pricing
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    Contact
-                </a>
-            </li>
-        </ul>
+
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <a href="/" class="navbar-brand">
+            <img class="core" src="/assets/css/images/CORE.PNG" alt="CORE img">
+        </a>
+        <button class="navbar-toggler button-styles" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="/services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Contact</a>
+                </li>
+            </ul>
+        </div>
     </nav>
+
+    <!-- <nav id="navi" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a href="/" class="navbar-brand">
+                <img class="core" src="/assets/css/images/CORE.PNG" alt="CORE img">
+            </a>
+            <button class="navbar-toggler button-styles" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-elements" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-collapse-elements">
+                <ul class="color navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services.html">
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Contact
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+
+    <!-- <nav id="navi" class="navbar navbar-toggle navbar-expand-sm">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse">
+
+                <a href="/">
+                    <img class="core" src="/assets/css/images/CORE.PNG" alt="CORE img">
+                </a>
+                <ul class="color navbar-nav ms-auto">
+                    <li class="nav-item me-auto">
+                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/services.html">
+                            Services
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Contact
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
     <img class="core-logo" src="/assets/css/images/coreDetailingSolutions.jpg.jpg" alt="coreDetailingSolutions">
 </body>
 
