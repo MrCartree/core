@@ -45,7 +45,7 @@ nav .navbar-nav li a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-top: 150px;
+    margin-top: 75px;
 }
 
 .bio {
@@ -54,4 +54,29 @@ nav .navbar-nav li a:hover {
     margin-right: 150px;
     margin-top: 200px;
     margin-bottom: 500px;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.top-title {
+    margin-top: 75px;
+}
+
+.titles {
+    color: #d5d5d3;   
+}
+
+.placeholder {
+    height: 700px;
+    width: 75%;
+    background-color: rgb(255, 130, 151);
+    
+}
+
+.inner-text {
+    color: #d5d5d3;
+    text-align: center;
+    
 }
