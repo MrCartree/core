@@ -86,19 +86,28 @@ nav .navbar-nav li a:hover {
 
 /* Services Images */
 
-.image-container {
-    border: solid red;
-    display: flex;
+.big-container {
+    border: solid #d5d5d3;
+    margin-top: 50px;
     margin-left: 75px;
     margin-right: 75px;
+    border-radius: 20px;
+}
+
+.image-container {
+    border-top: solid #d5d5d3;
+    display: flex;
+    background-color: #3b3433;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .secondary-container{
     /* display: inline-block; */
-    border: solid blue;
+    /* border: solid blue; */
     /* margin-left: 70px; */
 }
 
 .interior-image {
     max-height: 550px;
+    border-radius: 0px 0px 0px 20px;
 }
