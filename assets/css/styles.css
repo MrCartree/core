@@ -127,3 +127,17 @@ nav .navbar-nav li a:hover {
 .bottom-image {
     margin-bottom: 100px;
 }
+
+@media screen and (max-width: 950px) {
+    .interior-image {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+    }
+
+    .inner-text{
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+}
