@@ -7,4 +7,4 @@
 - [ ] Text drops below images on services page
 - [ ] Remove lorem ipsum from the site
 - [ ] Clean up assets directory
-- [ ] Move `assets/css/images` to just `assets/images`
+- [x] Move `assets/css/images` to just `assets/images`
