@@ -2,6 +2,7 @@
 
 body {
     background-color: #231f1e;
+    color:  white;
 }
 
 #navi {
@@ -78,11 +79,6 @@ nav .navbar-nav li a:hover {
     color: #d5d5d3;   
 }
 
-/* .placeholder {
-    height: 700px;
-    width: 75%;    
-} */
-
 .inner-text {
     position: absolute;
     top: 50%;
@@ -91,7 +87,7 @@ nav .navbar-nav li a:hover {
     color: #d5d5d3;
 }
 
-/* Services Images */
+/* Services page */
 
 .card-title {
     text-align: center;
@@ -114,43 +110,18 @@ nav .navbar-nav li a:hover {
 
 }
 
-.actual-image {
-    max-width: 1200px;
+.services-image {
+    float: left;
+    max-height: 300px;
+    margin-right: 16px;
+    border-bottom-left-radius: 20px;
 }
 
-.secondary-container{
-    max-width: 25%;
-    text-align: center;
-    margin: auto;
-}
-
-.interior-image {
-    /* max-width: 550px; */
-    width: 100%;
-    height: auto;
-    max-height: 550px;
-    border-radius: 0px 0px 0px 20px;
-}
-
-.box-text {
-    color: white;
-}
-
-.bottom-image {
-    margin-bottom: 100px;
-}
-
-@media screen and (max-width: 950px) {
-    .interior-image {
-        display: flex;
-        flex-direction: column;
-        order: 1;
-    }
-
-    .inner-text{
-        display: flex;
-        flex-direction: column;
-        order: 2;
+@media screen and (max-width: 500px) {
+    .services-image {
+        float: left;
+        max-height: 150px;
+        margin-right: 16px;
     }
 }
 
