@@ -11,6 +11,7 @@ body {
 .navbar-custom {
     color: #35cef0;
     text-decoration: none;
+    padding-right: 8px;
 }
 
 .navbar-custom .navbar-toggler-icon {
@@ -34,6 +35,11 @@ nav .navbar-nav li a:visited {
 
 nav .navbar-nav li a:hover {
     color: #ef1923;
+}
+
+.core-nav-item-right {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .core {
