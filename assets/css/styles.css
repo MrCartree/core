@@ -87,6 +87,10 @@ nav .navbar-nav li a:hover {
     color: #d5d5d3;
 }
 
+.bottom-card {
+    margin-bottom: 25px;
+}
+
 /* Services page */
 
 .card-title {
@@ -151,4 +155,10 @@ nav .navbar-nav li a:hover {
 
 .reachOutAndTouchMe {
     color: #d5d5d3
+}
+
+.selfie {
+    max-height: 500px;
+    margin-right: 16px;
+    border-bottom-left-radius: 20px;
 }
